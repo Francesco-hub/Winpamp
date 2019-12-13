@@ -296,7 +296,7 @@ public class FXMLDocumentController implements Initializable {
     private void indexor(MouseEvent event) { //TO update our amount of songs in the playlist.
         model.setItemcounter(sop.getSelectionModel().getSelectedIndex()); //Passes the info to our Main Model.
     }
-
+//comment test
     @FXML
     private void ShowNew(ActionEvent event) throws IOException {//Method to display the window for adding a new song.
           Parent blahh = FXMLLoader.load(getClass().getResource("/winpamp/gui/NewPlaylistInterface.fxml"));
